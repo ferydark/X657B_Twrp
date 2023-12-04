@@ -15,15 +15,15 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/zentrust1/X657B_Twrp'
+        default: 'https://gitlab.com/OrangeFox/device/rmx2030'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-11'
+        default: 'twrp'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/infinix/X657B'
+        default: 'device/realme/RMX2030'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -33,11 +33,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'X657B'
+        default: 'RMX2030'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_X657B'
+        default: 'omni_RMX2030'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
